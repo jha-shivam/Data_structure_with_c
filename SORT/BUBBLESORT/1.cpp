@@ -16,10 +16,10 @@ long long timeInMilliseconds(void)
 void random_number(int a[])
 {
     int i;
-    int f = 20000;
+    int f = 90000;
     for (i = 0; i < f; i++)
     {
-        a[i] = rand() % 20000;
+        a[i] = rand() % 200000;
     }
 }
 
@@ -45,7 +45,7 @@ void sorting(int a[], int n)
 int main()
 {
     int i;
-    int a[20000];
+    int a[90000];
     // Generating random numbers
     random_number(a);
 
